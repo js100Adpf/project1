@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	
+        <title>Css Layout</title>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="wraffer">
+            
+            
+        <div class="topnav" id="myTopnav">
+	<a href="#">EN</a>
+    <a href="#">MEDIA CENTER|</a>
+  <a href="#">CARRIER</a>
+  <a href="#">INVESTORS</a>
+  <a href="#">COMMUNITY</a>
+  <a href="#">WNS DecisionPointTM</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>           
+           	<div class="topnav1" id="myTopnav1">
+       <ul>
+       <img src="C:\Users\user\Desktop\New folder (4)\pig.png"height="40px" width="20% ">  
+          
+      <a href="#" >Home</a>
+      <a href="#">News</a>
+      <a href="#">Contact</a>
+        <a href="#">About</a>
+  </ul>
+  </div>
+	
+				<div id="wraffer">
+							 
+                         <div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="C:\Users\user\Desktop\New folder (4)\l.jpg" style="width:100%">
+  
+  <div class="text">
+
+   <h1>Intelligent Digital Strategy Enhance Omni-channel Customer Engagement</h1>
+  </div>
+</div>
+
+<div class="mySlides fade">
+ 
+  <img src="C:\Users\user\Desktop\New folder (4)\p.jpg" style="width:100%" >
+  <div class="text">
+ <h1> Total Business Alignment:Maximizing Procurements Strategic Value</h1>
+ 
+  </div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="C:\Users\user\Desktop\New folder (4)\w.jpg" style="width:100%">
+  <div class="text">
+  <h1>Intelligent Automation:Re-engineering Transformation in Finance</h1>
+  </div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<div id="content1">
+<h2>Learn about WNS and what we can do for you</h2>
+
+        <div1><a href="link.html">ABOUT WNS</a></div1>
+    <div1>THEWINSPROPOSTION 
+	    
+	</div1>
+   <div1>GLOBAL PRESENSE</div1> 
+   <div1>CO-CREATE TO OUTPERFORM</div1>
+ 
+
+
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+ 	  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+ 
+ 
+<div id="content2">
+<div id="left">
+
+WNS DecisionPointTM<br><br>
+<p>WNS DecisionPointTM aims to arm decision makers with ‘points of fact’ around application of analytics, disruptive technologies, next-gen customer experience, and business model innovation.</p>
+</div>
+<div id="mid">  
+<p> DecisionPointConnecting <br><br>
+  'Things' to Customers 
+  
+  <ul>
+ <div2><li><a =href="#"><i class="fa fa-share-alt-square" style="font-size:36px;color:red"></i></a></div2>
+<ul>
+  <li><i class="fa fa-facebook-square" style="font-size:36px;color:blue"></i></li>
+   <li><i class="fa fa-linkedin-square" style="font-size:36px;color:blue"></i></li>
+ <li><i class="fa fa-twitter-square" style="font-size:36px;color:red"></i></li>
+</ul>
+
+	</li>			 
+ </ul>
+  
+</div>
+<div id="right"> 
+<p>WNS DecisionPointFintech:<br><br> 
+Disrupting & Augmenting the Financial Landscape
+<ul>
+ <div2><li><a =href="#"><i class="fa fa-share-alt-square" style="font-size:36px;color:red"></i></a></div2>
+<ul>
+  <li><i class="fa fa-facebook-square" style="font-size:36px;color:blue"></i></li>
+   <li><i class="fa fa-linkedin-square" style="font-size:36px;color:blue"></i></li>
+ <li><i class="fa fa-twitter-square" style="font-size:36px;color:red"></i></li>
+</ul>
+
+	</li>			 
+ </ul>
+</div>
+
+
+</div>
+<div id="bigimage">
+
+<h2>SPOTLIGHT</h2>
+ <h3>INDUSTRY TRENDS</h3>
+
+        <div1>TRAVEL</div1>
+    <div1>NSURANCE</div1>
+   <div1>ENERGY&UTILISE</div1> 
+   <div1>BANKING&FINANCIAL SERVICE</div1>
+    <div1>SHIPPING AND LOGISTIC</div1>
+
+</div>
+<div id ="content3">
+
+<div id="left1">
+ <p>WNS BrandttitudeTM<br><br>
+A state -of-the-art,cloud-based business intelligence self-
+serve analystics platform<br><br><br><br></p>
+<br><br><br><br><br><br><br><br><br><br><p>Related to:</p>
+
+</div>
+<div id="mid1">
+
+<p>proprietary analytics platform that combines the power of 
+advanced machine learning techniques and artificial intelligence 
+to create true 'brand equity index'</p>
+
+</div>
+<div id="right1">
+<p>Commercial Planning <br>
+SuiteThe suite provides an integrated view across airlines’ key 
+commercial areas, enabling trend analysis, root cause
+ analysis and actionable insights</p>
+
+</div>
+</div>
+<div id="bigcont2">
+   <WNS provides us a blend of functional expertise and process capabilities which spans
+   across our diverse portfolio.<br> Our partnership with WNS has become an integral part of our 
+   operations and <br>we look forward to maintaining this stability and competitive advantage in 
+   a volatile energy market. "  - Phil Bentley,
+</div>
+
+<div id="bigcont3">
+<div id="left2">
+   
+<ul >
+                 <li><a =href="#"> Industries we serve </a> </li><br>
+                  <li><a =href="#">Functional Solutions</a </li>
+                  
+				   <li><a =href="#">Transformation &</a></li>
+			           <li><a =href="#">Frameworks</a> </li> 
+			          <li><a =href="#">Value Multipliers </a>  </li> 
+					  <li><a =href="#"> Technology</a>  </li> 
+					  <li><a =href="#">WNS TRAC </a>  </li> 
+					  
+					  
+				   </ul>
+				   <br>
+
+
+</div>
+<div id="mid2">
+
+<ul >
+                 <li><a =href="#">INSIGHTS</a> </li><br>
+                  <li><a =href="#">Case Studies</a </li>
+                  
+				   <li><a =href="#">Videos</a></li>
+			           <li><a =href="#">Podcasts</a> </li> 
+			          <li><a =href="#">Blogs </a>  </li> 
+					   <li><a =href="#">Infographics</a>  </li> 
+					   <li><a =href="#">Webinars</a>  </li> 
+					  
+				   </ul>
+
+              </div>
+         <div id="right2">
+                <ul >
+                 <li><a =href="#"> ABOUT WNS </a> </li><br>
+                  <li><a =href="#">Management Team</a </li>
+                  
+				   <li><a =href="#">Board of Directors</a></li>
+			           <li><a =href="#">Awards & Recognition</a> </li> 
+			          <li><a =href="#">Corporate Social </a>  </li> 
+					     <li><a =href="#">Responsibility </a>  </li> 
+					  <li><a =href="#">Client Stories </a>  </li> 
+					  
+				   </ul>
+</div>
+<div id="right4">
+<ul >
+                 <li><a =href="#"> COMMUNITY </a> </li>
+                  <li><a =href="#">Events</a </li>
+                  
+				   
+					  
+				   </ul></div>
+<div id="right5">
+<ul >
+                 <li><a =href="#"> MEDIA CENTER</a> </li><br>
+                  <li><a =href="#">WNS in the News</a </li>
+                  
+				   <li><a =href="#">Investors</a></li>
+			          
+					  
+				   </ul></div>
+				   <div id="right6">
+				   <ul >
+                   <li> <a =href="#"> CONTACT</a> </li><br>
+                  <li><a =href="#">Global Presence</a </li>
+                  
+				   <li><a =href="#">Influencer Enquirys</a></li>
+			           <li><a =href="#">Carrier</a> </li> 
+			          <li><a =href="#">Media center </a>  </li> 
+					  
+				   </ul
+				   
+				   
+				   </div>
+				   
+				   
+				  
+</div>
+
+
+
+
+</div>
+
+
+            
+			
+            
+            <div id='footer'>
+			 © Copyright 2020 WNS (Holdings) Ltd. All rights reserved
+			 
+			</div>
+        
+    </body>
+</html>
